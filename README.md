@@ -1,73 +1,45 @@
-# Welcome to your Lovable project
+# SaaS Landing Page
 
-## Project info
+A modern, responsive landing page built with React, TypeScript, and Tailwind CSS. Designed to showcase SaaS products with high-converting UI components and optimal performance.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Overview
 
-## How can I edit this code?
+This project provides a professional landing page template for SaaS products, featuring a clean design, fast loading times, and mobile-first responsive layout [web:11][web:16].
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- **Vite** - Next-generation frontend build tool
+- **TypeScript** - Static type checking for JavaScript
+- **React** - Component-based UI library
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn-ui** - Accessible and customizable component library
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- ✨ Modern and clean UI design
+- 📱 Fully responsive across all devices
+- ⚡ Lightning-fast performance with Vite
+- 🎨 Customizable with Tailwind CSS
+- 🔒 Type-safe with TypeScript
+- ♿ Accessible components with shadcn-ui
+- 🚀 Production-ready build configuration
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Make sure you have the following installed:
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate to project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# Install dependencies
+npm install
