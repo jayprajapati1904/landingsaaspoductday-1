@@ -36,10 +36,10 @@ Make sure you have the following installed:
 
 ```sh
 # Clone the repository
-git clone <YOUR_GIT_URL>
+git clone https://github.com/jayprajapati1904/landingsaaspoductday-1
 
-# Navigate to project directory
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory (must match the repository name)
+cd landingsaaspoductday-1
 
 # Install dependencies
 npm install
