@@ -1,12 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Navbar } from "@/components/landing/Navbar";
+import { Hero } from "@/components/landing/Hero";
+import { SocialProof } from "@/components/landing/SocialProof";
+import { ProblemSection } from "@/components/landing/ProblemSection";
+import { BentoFeatures } from "@/components/landing/BentoFeatures";
+import { WorkflowTabs } from "@/components/landing/WorkflowTabs";
+import { StatsSection } from "@/components/landing/StatsSection";
+import { Testimonials } from "@/components/landing/Testimonials";
+import { Pricing } from "@/components/landing/Pricing";
+import { FAQ } from "@/components/landing/FAQ";
+import { CTASection } from "@/components/landing/CTASection";
+import { Footer } from "@/components/landing/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <SocialProof />
+        <ProblemSection />
+        <BentoFeatures />
+        <WorkflowTabs />
+        <StatsSection />
+        <Testimonials />
+        <Pricing />
+        <FAQ />
+        <CTASection />
+      </main>
+      <Footer />
     </div>
   );
 };
